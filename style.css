@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    margin-bottom: 30px;
+}
+
+nav {
+    width: 70%;
+    margin-inline: auto;
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li a{
+    color: rgb(185, 185, 185);
+    font-size: 14px;
+}
+
+nav i {
+    cursor: pointer;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    margin-inline: auto;
+    padding: 100px 70px 30px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main-header h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+main p {
+    color: rgb(66, 66, 66);
+}
+.main-header p span {
+    color: rgb(18, 18, 252);
+    cursor: pointer;
+}
+
+.main-content {
+    padding: 40px 90px 20px;
+}
+
+.main-content h3, .comment {
+    margin-bottom: 10px;
+}
+
+.comment {
+    line-height: 1.8;
+}
+
+.name, .rip {
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+}
+
+.content {
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+
+.genius {
+    color: rgb(114, 114, 114);
+}
+.rip {
+    font-size: 17px;
+}
+
+.bottom {
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
